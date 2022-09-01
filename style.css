@@ -3,28 +3,47 @@ body {
   padding: 1rem;
   box-sizing: border-box;
   height: 100vh;
-  background-color: #a3e635;
+  background-color: white;
   color: white;
 }
 
 .container{
     border: 1px solid #953232;
-    text-align: center;
-    height: 100%;
+    
     margin:auto;
     margin-top:30px;
     text-align: center;
     padding:20px;
     width:400px;
     height:450px;
-    background-color:#b8cc94;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    background-color:#071609;
+    border-radius: 1rem;
+    
 }
 
 p {
   padding: 2rem;
-  text-align: left;
-  font-size: large;
+  text-align: center;
+  font-size: larger;
+  
 }
+label{
+  display: block;
+  margin-bottom: 20px;
+  font-size: larger;
+  font-family:cursive
+  
+}
+#output{
+  color:black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  
+}
+button{
+  margin-bottom: 50px;
+  padding:0.2rem;
+  
+}
+
 
